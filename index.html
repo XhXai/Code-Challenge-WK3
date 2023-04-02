@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flatdango</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Flatdango</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Movies</h2>
+            <ul id="list-container"></ul>
+        </section>
+        <section>
+            <h2 id="movie-title"></h2>
+            <img id="movie-poster">
+            <p id="movie-runtime"></p>
+            <p id="movie-showtime"></p>
+            <p id="movie-tickets"></p>
+        </section>
+        <section id="add-film-section">
+            <h2>Add Film</h2>
+            <form id="myform">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title"><br>
+
+                <label for="posterUrl">Poster URL:</label>
+                <input type="text" id="posterUrl" name="posterUrl"><br>
+
+                <label for="runtime">Runtime:</label>
+                <input type="text" id="runtime" name="runtime"><br>
+
+                <label for="showtime">Showtime:</label>
+                <input type="text" id="showtime" name="showtime"><br>
+
+                <label for="tickets">Tickets:</label>
+                <input type="text" id="tickets" name="tickets"><br>
+
+                <button type="submit" id="add-film-button">Add-Film</button>
+                <button id="delete-film">Delete-Film</button>
+                <button id="edit-film">Edit-Film</button>
+                <button id="buy-ticket">Buy-Ticket</button>
+            </form>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
+
